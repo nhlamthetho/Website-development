@@ -1,0 +1,91 @@
+
+*{
+	}
+
+
+h5{
+	color:black;
+	text-align: left;
+	padding-left: 15px;
+
+}
+div.container{
+	
+	height: 2000px;
+	border: 1px solid red;
+	display: grid;
+	grid-template-rows: 45px 300px auto;
+
+
+	
+}
+div.bar{
+	margin-right: 10px;
+	margin-left: 10px;
+	/*border: 2px solid black;*/
+	background-color: #C1C1BF;
+	/*position: fixed;*/
+}
+
+div.movingPics{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 100px;
+	border: 2px solid black;
+	background-color: grey;
+	
+}
+
+div.options{
+	
+	border: 2px solid yellow;
+	background-color: white;
+	/*----*/
+	margin: 25px;
+	margin-top: 75px;
+	
+	
+	display: grid;
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: repeat(2,200px);
+	grid-row-gap: 20px;
+
+	
+	
+}
+div.location{
+	margin: 10px;
+	border: 5px solid black;
+}
+h6{
+
+	color:black;
+	text-align: left;
+	margin-top: 150px;
+	margin-left: 10px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+
+	
+}
+div.lim{
+	/*background-color: lightblue;*/
+	background-image: url(1.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+div.mpu{
+	background-image: url(2.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}div.gau{
+	background-image: url(1.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+div.UL{
+	background-image: url(4.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}

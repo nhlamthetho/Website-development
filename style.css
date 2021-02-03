@@ -86,7 +86,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-image: url(n1.jpg);
-	animation : slider 10s infinite linear; 
+	animation : slider 10s infinite linear ; 
 }
 @keyframes slider{
 		0%{
